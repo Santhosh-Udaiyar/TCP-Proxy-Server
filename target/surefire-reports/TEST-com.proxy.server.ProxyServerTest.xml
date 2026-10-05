@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.proxy.server.ProxyServerTest" time="0.529" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\SANTHOSH UDAIYAR\Desktop\tcp-proxy-server\target\test-classes;C:\Users\SANTHOSH UDAIYAR\Desktop\tcp-proxy-server\target\classes;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\SANTHOSH UDAIYAR\AppData\Local\Temp\surefire6600147600706932314\surefirebooter-20261005151450131_3.jar C:\Users\SANTHOSH UDAIYAR\AppData\Local\Temp\surefire6600147600706932314 2026-10-05T15-14-49_895-jvmRun1 surefire-20261005151450131_1tmp surefire_0-20261005151450131_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\SANTHOSH UDAIYAR\Desktop\tcp-proxy-server\target\test-classes;C:\Users\SANTHOSH UDAIYAR\Desktop\tcp-proxy-server\target\classes;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\SANTHOSH UDAIYAR\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SANTHOSH UDAIYAR"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\SANTHOSH UDAIYAR\Desktop\tcp-proxy-server"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\SANTHOSH UDAIYAR\AppData\Local\Temp\surefire6600147600706932314\surefirebooter-20261005151450131_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.20.1+1"/>
+    <property name="user.name" value="SANTHOSH UDAIYAR"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.20.1+1"/>
+    <property name="localRepository" value="C:\Users\SANTHOSH UDAIYAR\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\SANTHO~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.20.1"/>
+    <property name="user.dir" value="C:\Users\SANTHOSH UDAIYAR\Desktop\tcp-proxy-server"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/SANTHOSH UDAIYAR/.gemini/antigravity-ide/bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\ProgramData\chocolatey\bin;C:\Users\SANTHOSH UDAIYAR\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\Git\cmd;C:\Users\SANTHOSH UDAIYAR\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\SANTHOSH UDAIYAR\AppData\Local\Programs\Python\Python312\;C:\Users\SANTHOSH UDAIYAR\AppData\Local\Programs\Python\Launcher\;C:\Users\SANTHOSH UDAIYAR\AppData\Local\Microsoft\WindowsApps;C:\Users\SANTHOSH UDAIYAR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SANTHOSH UDAIYAR\AppData\Roaming\npm;C:\Users\SANTHOSH UDAIYAR\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\SANTHOSH UDAIYAR\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\SANTHOSH UDAIYAR\maven\apache-maven-3.9.6\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.20.1+1"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testConnectionLimitEnforcement" classname="com.proxy.server.ProxyServerTest" time="0.051">
+    <system-out><![CDATA[[2026-10-05 15:14:51.640] [INFO ] [main] TCP Proxy Server started on port 56069 -> forwarding to 127.0.0.1:56068 (Max: 1 conns)
+[2026-10-05 15:14:51.650] [INFO ] [ProxyWorker-21] [Conn #1] Accepted connection from 127.0.0.1:56070 -> Target 127.0.0.1:56068
+[2026-10-05 15:14:51.651] [INFO ] [ProxyWorker-21] [Conn #1] Established bridge: 127.0.0.1:56070 <===> 127.0.0.1:56068
+[2026-10-05 15:14:51.658] [WARN ] [ProxyAcceptThread-56069] Rejected connection #2 from 127.0.0.1:56072: Active limit reached (1/1)
+[2026-10-05 15:14:51.661] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:14:51.662] [INFO ] [main] Closing 1 active proxy connection(s)...
+[2026-10-05 15:14:51.662] [INFO ] [ProxyWorker-21] [Conn #1] Completed normally. Sent: 12 B, Received: 17 B, Duration: 0.016s
+[2026-10-05 15:14:51.675] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=2, sent=12 B, received=17 B, totalTransferred=29 B, failed=0, rejected=1, avgDuration=16 ms}
+]]></system-out>
+  </testcase>
+  <testcase name="testBidirectionalForwarding" classname="com.proxy.server.ProxyServerTest" time="0.217">
+    <system-out><![CDATA[[2026-10-05 15:14:51.679] [INFO ] [main] TCP Proxy Server started on port 56074 -> forwarding to 127.0.0.1:56073 (Max: 10 conns)
+[2026-10-05 15:14:51.681] [INFO ] [ProxyWorker-27] [Conn #1] Accepted connection from 127.0.0.1:56075 -> Target 127.0.0.1:56073
+[2026-10-05 15:14:51.682] [INFO ] [ProxyWorker-27] [Conn #1] Established bridge: 127.0.0.1:56075 <===> 127.0.0.1:56073
+[2026-10-05 15:14:51.684] [INFO ] [ProxyWorker-27] [Conn #1] Completed normally. Sent: 28 B, Received: 38 B, Duration: 0.003s
+[2026-10-05 15:14:51.893] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:14:51.894] [INFO ] [main] Closing 0 active proxy connection(s)...
+[2026-10-05 15:14:51.894] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=1, sent=28 B, received=38 B, totalTransferred=66 B, failed=0, rejected=0, avgDuration=3 ms}
+]]></system-out>
+  </testcase>
+  <testcase name="testMultipleConcurrentClients" classname="com.proxy.server.ProxyServerTest" time="0.222">
+    <system-out><![CDATA[[2026-10-05 15:14:51.899] [INFO ] [main] TCP Proxy Server started on port 56078 -> forwarding to 127.0.0.1:56077 (Max: 20 conns)
+[2026-10-05 15:14:51.903] [INFO ] [ProxyWorker-38] [Conn #1] Accepted connection from 127.0.0.1:56080 -> Target 127.0.0.1:56077
+[2026-10-05 15:14:51.903] [INFO ] [ProxyWorker-39] [Conn #2] Accepted connection from 127.0.0.1:56079 -> Target 127.0.0.1:56077
+[2026-10-05 15:14:51.904] [INFO ] [ProxyWorker-40] [Conn #3] Accepted connection from 127.0.0.1:56081 -> Target 127.0.0.1:56077
+[2026-10-05 15:14:51.904] [INFO ] [ProxyWorker-42] [Conn #5] Accepted connection from 127.0.0.1:56083 -> Target 127.0.0.1:56077
+[2026-10-05 15:14:51.905] [INFO ] [ProxyWorker-39] [Conn #2] Established bridge: 127.0.0.1:56079 <===> 127.0.0.1:56077
+[2026-10-05 15:14:51.905] [INFO ] [ProxyWorker-38] [Conn #1] Established bridge: 127.0.0.1:56080 <===> 127.0.0.1:56077
+[2026-10-05 15:14:51.905] [INFO ] [ProxyWorker-41] [Conn #4] Accepted connection from 127.0.0.1:56082 -> Target 127.0.0.1:56077
+[2026-10-05 15:14:51.905] [INFO ] [ProxyWorker-40] [Conn #3] Established bridge: 127.0.0.1:56081 <===> 127.0.0.1:56077
+[2026-10-05 15:14:51.906] [INFO ] [ProxyWorker-42] [Conn #5] Established bridge: 127.0.0.1:56083 <===> 127.0.0.1:56077
+[2026-10-05 15:14:51.906] [INFO ] [ProxyWorker-41] [Conn #4] Established bridge: 127.0.0.1:56082 <===> 127.0.0.1:56077
+[2026-10-05 15:14:51.908] [INFO ] [ProxyWorker-39] [Conn #2] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.005s
+[2026-10-05 15:14:51.908] [INFO ] [ProxyWorker-40] [Conn #3] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.005s
+[2026-10-05 15:14:51.908] [INFO ] [ProxyWorker-38] [Conn #1] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.005s
+[2026-10-05 15:14:51.908] [INFO ] [ProxyWorker-41] [Conn #4] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.004s
+[2026-10-05 15:14:51.909] [INFO ] [ProxyWorker-42] [Conn #5] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.004s
+[2026-10-05 15:14:52.112] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:14:52.114] [INFO ] [main] Closing 0 active proxy connection(s)...
+[2026-10-05 15:14:52.116] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=5, sent=35 B, received=60 B, totalTransferred=95 B, failed=0, rejected=0, avgDuration=5 ms}
+]]></system-out>
+  </testcase>
+  <testcase name="testGracefulShutdown" classname="com.proxy.server.ProxyServerTest" time="0.021">
+    <system-out><![CDATA[[2026-10-05 15:14:52.126] [INFO ] [main] TCP Proxy Server started on port 56090 -> forwarding to 127.0.0.1:56089 (Max: 5 conns)
+[2026-10-05 15:14:52.131] [INFO ] [ProxyWorker-60] [Conn #1] Accepted connection from 127.0.0.1:56091 -> Target 127.0.0.1:56089
+[2026-10-05 15:14:52.135] [INFO ] [ProxyWorker-60] [Conn #1] Established bridge: 127.0.0.1:56091 <===> 127.0.0.1:56089
+[2026-10-05 15:14:52.137] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:14:52.138] [INFO ] [main] Closing 1 active proxy connection(s)...
+[2026-10-05 15:14:52.140] [INFO ] [ProxyWorker-60] [Conn #1] Completed normally. Sent: 15 B, Received: 20 B, Duration: 0.009s
+[2026-10-05 15:14:52.142] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=1, sent=15 B, received=20 B, totalTransferred=35 B, failed=0, rejected=0, avgDuration=9 ms}
+]]></system-out>
+  </testcase>
+  <testcase name="testUnauthorizedDestinationSecurity" classname="com.proxy.server.ProxyServerTest" time="0.005"/>
+</testsuite>

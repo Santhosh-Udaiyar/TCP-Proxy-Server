@@ -1,0 +1,17 @@
+com\proxy\config\ProxyConfig.class
+com\proxy\gui\ProxyDashboard$StatusBadgeRenderer.class
+com\proxy\model\ConnectionInfo$Status.class
+com\proxy\gui\ProxyDashboard$ConnectionTableModel.class
+com\proxy\util\Logger$Level.class
+com\proxy\server\Forwarder.class
+com\proxy\gui\ProxyDashboard$1.class
+com\proxy\server\ProxyServer.class
+com\proxy\gui\ProxyDashboard$2.class
+com\proxy\server\ProxyConnection.class
+com\proxy\gui\ProxyDashboard.class
+com\proxy\Main.class
+com\proxy\model\ConnectionInfo.class
+com\proxy\server\ProxyServer$ServerListener.class
+com\proxy\util\Logger$LogListener.class
+com\proxy\util\Logger.class
+com\proxy\model\TrafficStats.class

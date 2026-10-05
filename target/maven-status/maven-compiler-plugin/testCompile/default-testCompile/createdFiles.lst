@@ -1,0 +1,5 @@
+com\proxy\config\ProxyConfigTest.class
+com\proxy\model\ConnectionInfoTest.class
+com\proxy\model\TrafficStatsTest.class
+com\proxy\server\ProxyServerTest.class
+com\proxy\VerificationRunner.class

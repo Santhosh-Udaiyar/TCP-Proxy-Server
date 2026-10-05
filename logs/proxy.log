@@ -1,0 +1,108 @@
+[2026-10-05 15:10:49.056] [INFO ] [main] TCP Proxy Server started on port 61223 -> forwarding to 127.0.0.1:61222 (Max: 1 conns)
+[2026-10-05 15:10:49.063] [INFO ] [ProxyWorker-21] [Conn #1] Accepted connection from 127.0.0.1:61224 -> Target 127.0.0.1:61222
+[2026-10-05 15:10:49.064] [INFO ] [ProxyWorker-21] [Conn #1] Established bridge: 127.0.0.1:61224 <===> 127.0.0.1:61222
+[2026-10-05 15:10:49.069] [WARN ] [ProxyAcceptThread-61223] Rejected connection #2 from 127.0.0.1:61226: Active limit reached (1/1)
+[2026-10-05 15:10:49.071] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:10:49.072] [INFO ] [main] Closing 1 active proxy connection(s)...
+[2026-10-05 15:10:49.072] [INFO ] [ProxyWorker-21] [Conn #1] Completed normally. Sent: 12 B, Received: 17 B, Duration: 0.011s
+[2026-10-05 15:10:49.083] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=2, sent=12 B, received=17 B, totalTransferred=29 B, failed=0, rejected=1, avgDuration=11 ms}
+[2026-10-05 15:10:49.086] [INFO ] [main] TCP Proxy Server started on port 61228 -> forwarding to 127.0.0.1:61227 (Max: 10 conns)
+[2026-10-05 15:10:49.088] [INFO ] [ProxyWorker-27] [Conn #1] Accepted connection from 127.0.0.1:61229 -> Target 127.0.0.1:61227
+[2026-10-05 15:10:49.089] [INFO ] [ProxyWorker-27] [Conn #1] Established bridge: 127.0.0.1:61229 <===> 127.0.0.1:61227
+[2026-10-05 15:10:49.091] [INFO ] [ProxyWorker-27] [Conn #1] Completed normally. Sent: 28 B, Received: 38 B, Duration: 0.003s
+[2026-10-05 15:10:49.294] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:10:49.294] [INFO ] [main] Closing 0 active proxy connection(s)...
+[2026-10-05 15:10:49.294] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=1, sent=28 B, received=38 B, totalTransferred=66 B, failed=0, rejected=0, avgDuration=3 ms}
+[2026-10-05 15:10:49.300] [INFO ] [main] TCP Proxy Server started on port 61232 -> forwarding to 127.0.0.1:61231 (Max: 20 conns)
+[2026-10-05 15:10:49.307] [INFO ] [ProxyWorker-38] [Conn #1] Accepted connection from 127.0.0.1:61234 -> Target 127.0.0.1:61231
+[2026-10-05 15:10:49.307] [INFO ] [ProxyWorker-39] [Conn #2] Accepted connection from 127.0.0.1:61233 -> Target 127.0.0.1:61231
+[2026-10-05 15:10:49.308] [INFO ] [ProxyWorker-40] [Conn #3] Accepted connection from 127.0.0.1:61236 -> Target 127.0.0.1:61231
+[2026-10-05 15:10:49.308] [INFO ] [ProxyWorker-41] [Conn #4] Accepted connection from 127.0.0.1:61235 -> Target 127.0.0.1:61231
+[2026-10-05 15:10:49.308] [INFO ] [ProxyWorker-42] [Conn #5] Accepted connection from 127.0.0.1:61237 -> Target 127.0.0.1:61231
+[2026-10-05 15:10:49.308] [INFO ] [ProxyWorker-39] [Conn #2] Established bridge: 127.0.0.1:61233 <===> 127.0.0.1:61231
+[2026-10-05 15:10:49.308] [INFO ] [ProxyWorker-38] [Conn #1] Established bridge: 127.0.0.1:61234 <===> 127.0.0.1:61231
+[2026-10-05 15:10:49.308] [INFO ] [ProxyWorker-40] [Conn #3] Established bridge: 127.0.0.1:61236 <===> 127.0.0.1:61231
+[2026-10-05 15:10:49.309] [INFO ] [ProxyWorker-42] [Conn #5] Established bridge: 127.0.0.1:61237 <===> 127.0.0.1:61231
+[2026-10-05 15:10:49.309] [INFO ] [ProxyWorker-41] [Conn #4] Established bridge: 127.0.0.1:61235 <===> 127.0.0.1:61231
+[2026-10-05 15:10:49.311] [INFO ] [ProxyWorker-39] [Conn #2] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.002s
+[2026-10-05 15:10:49.311] [INFO ] [ProxyWorker-41] [Conn #4] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.003s
+[2026-10-05 15:10:49.311] [INFO ] [ProxyWorker-38] [Conn #1] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.004s
+[2026-10-05 15:10:49.311] [INFO ] [ProxyWorker-40] [Conn #3] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.003s
+[2026-10-05 15:10:49.311] [INFO ] [ProxyWorker-42] [Conn #5] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.003s
+[2026-10-05 15:10:49.512] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:10:49.513] [INFO ] [main] Closing 0 active proxy connection(s)...
+[2026-10-05 15:10:49.515] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=5, sent=35 B, received=60 B, totalTransferred=95 B, failed=0, rejected=0, avgDuration=3 ms}
+[2026-10-05 15:10:49.519] [INFO ] [main] TCP Proxy Server started on port 61244 -> forwarding to 127.0.0.1:61243 (Max: 5 conns)
+[2026-10-05 15:10:49.520] [INFO ] [ProxyWorker-60] [Conn #1] Accepted connection from 127.0.0.1:61245 -> Target 127.0.0.1:61243
+[2026-10-05 15:10:49.521] [INFO ] [ProxyWorker-60] [Conn #1] Established bridge: 127.0.0.1:61245 <===> 127.0.0.1:61243
+[2026-10-05 15:10:49.522] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:10:49.523] [INFO ] [main] Closing 1 active proxy connection(s)...
+[2026-10-05 15:10:49.524] [INFO ] [ProxyWorker-60] [Conn #1] Completed normally. Sent: 15 B, Received: 20 B, Duration: 0.002s
+[2026-10-05 15:10:49.524] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=1, sent=15 B, received=20 B, totalTransferred=35 B, failed=0, rejected=0, avgDuration=2 ms}
+[2026-10-05 15:13:04.651] [INFO ] [main] TCP Proxy Server started on port 9877 -> forwarding to 127.0.0.1:9876 (Max: 2 conns)
+[2026-10-05 15:13:04.683] [INFO ] [ProxyWorker-17] [Conn #1] Accepted connection from 127.0.0.1:60102 -> Target 127.0.0.1:9876
+[2026-10-05 15:13:04.685] [INFO ] [ProxyWorker-17] [Conn #1] Established bridge: 127.0.0.1:60102 <===> 127.0.0.1:9876
+[2026-10-05 15:13:04.697] [WARN ] [ProxyAcceptThread-9877] Rejected connection #3 from 127.0.0.1:60105: Active limit reached (2/2)
+[2026-10-05 15:13:04.698] [INFO ] [ProxyWorker-21] [Conn #2] Accepted connection from 127.0.0.1:60104 -> Target 127.0.0.1:9876
+[2026-10-05 15:13:04.700] [INFO ] [ProxyWorker-21] [Conn #2] Established bridge: 127.0.0.1:60104 <===> 127.0.0.1:9876
+[2026-10-05 15:13:04.706] [WARN ] [ProxyAcceptThread-9877] Rejected connection #4 from 127.0.0.1:60107: Active limit reached (2/2)
+[2026-10-05 15:13:04.708] [INFO ] [ProxyWorker-17] [Conn #1] Completed normally. Sent: 29 B, Received: 39 B, Duration: 0.034s
+[2026-10-05 15:13:04.709] [INFO ] [ProxyWorker-21] [Conn #2] Completed normally. Sent: 15 B, Received: 25 B, Duration: 0.012s
+[2026-10-05 15:13:05.026] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:13:05.027] [INFO ] [main] Closing 0 active proxy connection(s)...
+[2026-10-05 15:13:05.048] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=4, sent=44 B, received=64 B, totalTransferred=108 B, failed=0, rejected=2, avgDuration=23 ms}
+[2026-10-05 15:13:19.193] [INFO ] [main] TCP Proxy Server started on port 9877 -> forwarding to 127.0.0.1:9876 (Max: 2 conns)
+[2026-10-05 15:13:19.216] [INFO ] [ProxyWorker-17] [Conn #1] Accepted connection from 127.0.0.1:60119 -> Target 127.0.0.1:9876
+[2026-10-05 15:13:19.218] [INFO ] [ProxyWorker-17] [Conn #1] Established bridge: 127.0.0.1:60119 <===> 127.0.0.1:9876
+[2026-10-05 15:13:19.234] [INFO ] [ProxyWorker-17] [Conn #1] Completed normally. Sent: 29 B, Received: 39 B, Duration: 0.023s
+[2026-10-05 15:13:19.432] [INFO ] [ProxyWorker-17] [Conn #2] Accepted connection from 127.0.0.1:60121 -> Target 127.0.0.1:9876
+[2026-10-05 15:13:19.432] [INFO ] [ProxyWorker-20] [Conn #3] Accepted connection from 127.0.0.1:60122 -> Target 127.0.0.1:9876
+[2026-10-05 15:13:19.433] [INFO ] [ProxyWorker-17] [Conn #2] Established bridge: 127.0.0.1:60121 <===> 127.0.0.1:9876
+[2026-10-05 15:13:19.434] [INFO ] [ProxyWorker-20] [Conn #3] Established bridge: 127.0.0.1:60122 <===> 127.0.0.1:9876
+[2026-10-05 15:13:19.438] [WARN ] [ProxyAcceptThread-9877] Rejected connection #4 from 127.0.0.1:60125: Active limit reached (2/2)
+[2026-10-05 15:13:19.441] [INFO ] [ProxyWorker-17] [Conn #2] Completed normally. Sent: 15 B, Received: 25 B, Duration: 0.010s
+[2026-10-05 15:13:19.442] [INFO ] [ProxyWorker-20] [Conn #3] Completed normally. Sent: 15 B, Received: 25 B, Duration: 0.009s
+[2026-10-05 15:13:19.746] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:13:19.764] [INFO ] [main] Closing 0 active proxy connection(s)...
+[2026-10-05 15:13:19.792] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=4, sent=59 B, received=89 B, totalTransferred=148 B, failed=0, rejected=1, avgDuration=14 ms}
+[2026-10-05 15:14:51.640] [INFO ] [main] TCP Proxy Server started on port 56069 -> forwarding to 127.0.0.1:56068 (Max: 1 conns)
+[2026-10-05 15:14:51.650] [INFO ] [ProxyWorker-21] [Conn #1] Accepted connection from 127.0.0.1:56070 -> Target 127.0.0.1:56068
+[2026-10-05 15:14:51.651] [INFO ] [ProxyWorker-21] [Conn #1] Established bridge: 127.0.0.1:56070 <===> 127.0.0.1:56068
+[2026-10-05 15:14:51.658] [WARN ] [ProxyAcceptThread-56069] Rejected connection #2 from 127.0.0.1:56072: Active limit reached (1/1)
+[2026-10-05 15:14:51.661] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:14:51.662] [INFO ] [main] Closing 1 active proxy connection(s)...
+[2026-10-05 15:14:51.662] [INFO ] [ProxyWorker-21] [Conn #1] Completed normally. Sent: 12 B, Received: 17 B, Duration: 0.016s
+[2026-10-05 15:14:51.675] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=2, sent=12 B, received=17 B, totalTransferred=29 B, failed=0, rejected=1, avgDuration=16 ms}
+[2026-10-05 15:14:51.679] [INFO ] [main] TCP Proxy Server started on port 56074 -> forwarding to 127.0.0.1:56073 (Max: 10 conns)
+[2026-10-05 15:14:51.681] [INFO ] [ProxyWorker-27] [Conn #1] Accepted connection from 127.0.0.1:56075 -> Target 127.0.0.1:56073
+[2026-10-05 15:14:51.682] [INFO ] [ProxyWorker-27] [Conn #1] Established bridge: 127.0.0.1:56075 <===> 127.0.0.1:56073
+[2026-10-05 15:14:51.684] [INFO ] [ProxyWorker-27] [Conn #1] Completed normally. Sent: 28 B, Received: 38 B, Duration: 0.003s
+[2026-10-05 15:14:51.893] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:14:51.894] [INFO ] [main] Closing 0 active proxy connection(s)...
+[2026-10-05 15:14:51.894] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=1, sent=28 B, received=38 B, totalTransferred=66 B, failed=0, rejected=0, avgDuration=3 ms}
+[2026-10-05 15:14:51.899] [INFO ] [main] TCP Proxy Server started on port 56078 -> forwarding to 127.0.0.1:56077 (Max: 20 conns)
+[2026-10-05 15:14:51.903] [INFO ] [ProxyWorker-38] [Conn #1] Accepted connection from 127.0.0.1:56080 -> Target 127.0.0.1:56077
+[2026-10-05 15:14:51.903] [INFO ] [ProxyWorker-39] [Conn #2] Accepted connection from 127.0.0.1:56079 -> Target 127.0.0.1:56077
+[2026-10-05 15:14:51.904] [INFO ] [ProxyWorker-40] [Conn #3] Accepted connection from 127.0.0.1:56081 -> Target 127.0.0.1:56077
+[2026-10-05 15:14:51.904] [INFO ] [ProxyWorker-42] [Conn #5] Accepted connection from 127.0.0.1:56083 -> Target 127.0.0.1:56077
+[2026-10-05 15:14:51.905] [INFO ] [ProxyWorker-39] [Conn #2] Established bridge: 127.0.0.1:56079 <===> 127.0.0.1:56077
+[2026-10-05 15:14:51.905] [INFO ] [ProxyWorker-38] [Conn #1] Established bridge: 127.0.0.1:56080 <===> 127.0.0.1:56077
+[2026-10-05 15:14:51.905] [INFO ] [ProxyWorker-41] [Conn #4] Accepted connection from 127.0.0.1:56082 -> Target 127.0.0.1:56077
+[2026-10-05 15:14:51.905] [INFO ] [ProxyWorker-40] [Conn #3] Established bridge: 127.0.0.1:56081 <===> 127.0.0.1:56077
+[2026-10-05 15:14:51.906] [INFO ] [ProxyWorker-42] [Conn #5] Established bridge: 127.0.0.1:56083 <===> 127.0.0.1:56077
+[2026-10-05 15:14:51.906] [INFO ] [ProxyWorker-41] [Conn #4] Established bridge: 127.0.0.1:56082 <===> 127.0.0.1:56077
+[2026-10-05 15:14:51.908] [INFO ] [ProxyWorker-39] [Conn #2] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.005s
+[2026-10-05 15:14:51.908] [INFO ] [ProxyWorker-40] [Conn #3] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.005s
+[2026-10-05 15:14:51.908] [INFO ] [ProxyWorker-38] [Conn #1] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.005s
+[2026-10-05 15:14:51.908] [INFO ] [ProxyWorker-41] [Conn #4] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.004s
+[2026-10-05 15:14:51.909] [INFO ] [ProxyWorker-42] [Conn #5] Completed normally. Sent: 7 B, Received: 12 B, Duration: 0.004s
+[2026-10-05 15:14:52.112] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:14:52.114] [INFO ] [main] Closing 0 active proxy connection(s)...
+[2026-10-05 15:14:52.116] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=5, sent=35 B, received=60 B, totalTransferred=95 B, failed=0, rejected=0, avgDuration=5 ms}
+[2026-10-05 15:14:52.126] [INFO ] [main] TCP Proxy Server started on port 56090 -> forwarding to 127.0.0.1:56089 (Max: 5 conns)
+[2026-10-05 15:14:52.131] [INFO ] [ProxyWorker-60] [Conn #1] Accepted connection from 127.0.0.1:56091 -> Target 127.0.0.1:56089
+[2026-10-05 15:14:52.135] [INFO ] [ProxyWorker-60] [Conn #1] Established bridge: 127.0.0.1:56091 <===> 127.0.0.1:56089
+[2026-10-05 15:14:52.137] [INFO ] [main] Initiating graceful shutdown of TCP Proxy Server...
+[2026-10-05 15:14:52.138] [INFO ] [main] Closing 1 active proxy connection(s)...
+[2026-10-05 15:14:52.140] [INFO ] [ProxyWorker-60] [Conn #1] Completed normally. Sent: 15 B, Received: 20 B, Duration: 0.009s
+[2026-10-05 15:14:52.142] [INFO ] [main] Graceful shutdown complete. Final Traffic Summary: TrafficStats{active=0, total=1, sent=15 B, received=20 B, totalTransferred=35 B, failed=0, rejected=0, avgDuration=9 ms}
